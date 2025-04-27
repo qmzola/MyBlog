@@ -1,3 +1,4 @@
+baseURL: "https://blog.luol.men"
 languageCode: zh-cn
 title: 绫华的后花园
 theme: ["PaperMod"]
