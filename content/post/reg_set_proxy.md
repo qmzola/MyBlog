@@ -14,7 +14,7 @@ title: '如何使用注册表来修改Windows的代理'
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable
 ```
 
-值为1时是开启状态，值为0时是关闭状态，此值的类型为**REG_DWORD**
+值为`1`时是开启状态，值为`0`时是关闭状态，此值的类型为**REG_DWORD**
 
 ### 修改代理服务器地址
 
@@ -34,7 +34,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Pr
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride
 ```
 
-为此键添加IP地址即可。可以用*/来通配，例如`192.168.\*`。如果有多个，以分号`:`来隔开多个IP地址。
+为此键添加IP地址即可。可以用*/来通配，例如`192.168.*`。如果有多个，以分号`:`来隔开多个IP地址。
 
 在此键添加值`<local>`可以启用“**请勿将代理服务器用于本地（Intranet）地址**“选项。   
 
