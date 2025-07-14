@@ -35,7 +35,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Pr
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride
 ```
 
-为此键添加IP地址即可。可以用*/来通配，例如`192.168.*`。如果有多个，以分号`;`来隔开多个IP地址。
+为此键添加IP地址即可。可以用*来通配，例如`192.168.*`。如果有多个，以分号`;`来隔开多个IP地址。
 
 在此键添加值`<local>`可以启用“**请勿将代理服务器用于本地（Intranet）地址**“选项。   
 
