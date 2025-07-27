@@ -1,7 +1,29 @@
-User-agent: *
+User-agent: Googlebot
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 Disallow:
 {{- else }}
 Disallow: /
 {{- end }}
-Sitemap: {{ "sitemap.xml" | absURL }}
+
+User-agent: Bingbot
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+Disallow:
+{{- else }}
+Disallow: /
+{{- end }}
+
+User-agent: Baiduspider
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+Disallow:
+{{- else }}
+Disallow: /
+{{- end }}
+
+User-agent: DuckDuckBot
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+Disallow:
+{{- else }}
+Disallow: /
+{{- end }}
+
+Sitemap: https://blog.luol.men/sitemap.xml
