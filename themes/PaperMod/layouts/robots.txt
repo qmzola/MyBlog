@@ -4,4 +4,4 @@ Disallow:
 {{- else }}
 Disallow: /
 {{- end }}
-Sitemap: https://blog.luol.men/sitemap.xml
+Sitemap: {{ "sitemap.xml" | absURL }}
