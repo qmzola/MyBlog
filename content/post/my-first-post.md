@@ -2,6 +2,7 @@
 date: '2025-04-27T11:26:48+08:00'
 draft: flase
 title: 'My first post'
+comments: true
 ---
 ## Introduction
 
