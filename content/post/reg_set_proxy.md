@@ -3,6 +3,7 @@ date: '2025-07-14T21:08:26+08:00'
 draft: false
 description: '本篇文章提供了代码如果要修改Windows代理需要接触的注册表的路径，以及相关的配置项'
 title: '如何使用代码修改注册表来修改Windows的代理'
+comments: true
 ---
 
 一般来说，使用程序修改代理可以修改注册表的方法实现。
